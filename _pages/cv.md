@@ -19,8 +19,8 @@ Work experience
 ======
 * May 2021 - August 2022: Software Engineer at Microsoft Azure Cosmos DB
   * Early member of Dedicated Gateway / Integrated Cache Team
- * Architected and implemented robust performance monitoring in a complex microservice architecture
- * Conducted experiments on and engineered solutions for reliability and availability of distributed systems running on Microsoft Azure Service Fabric
+  * Architected and implemented robust performance monitoring in a complex microservice architecture
+  * Conducted experiments on and engineered solutions for reliability and availability of distributed systems running on Microsoft Azure Service Fabric
 
 * June 2020 - September 2020: Software Engineer Intern
   * Optimized TPC-DS’s highly normalized relational data schema for Document-Oriented Databases
