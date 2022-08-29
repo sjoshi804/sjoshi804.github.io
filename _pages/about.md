@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About Me"
+excerpt: "First Year CS Phd Student at UCLA"
 author_profile: true
 redirect_from: 
   - /about/
