@@ -11,7 +11,7 @@ title                    : "Siddharth Joshi"
 title_separator          : "-"
 name                     : &name "Siddharh Joshi"
 description              : &description "personal description"
-url                      : https://sjoshi804.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://sjoshi804.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sjoshi804/sjoshi804.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,9 +82,10 @@ analytics:
 author:
   name             : "Siddharth Joshi"
   avatar           : "profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Computer Science PhD Student at UCLA. Intersted in Neural Architecture Search and Pruning.
+                      Always open to chat about this / related topics!"
   location         : "Los Angeles"
-  employer         :
+  employer         : "UCLA CS [https://www.cs.ucla.edu]"
   googlescholar    : 
   email            :
   github           : "sjoshi804"
