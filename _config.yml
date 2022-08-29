@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Siddhart Joshi"
+title                    : "Siddharth Joshi"
 title_separator          : "-"
 name                     : &name "Siddharh Joshi"
 description              : &description "personal description"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -81,40 +81,17 @@ analytics:
 # Site Author
 author:
   name             : "Siddharth Joshi"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Los Angeles"
   employer         :
-  pubmed           : 
   googlescholar    : 
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "sjoshi804"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
   linkedin         :
-  orcid            : 
-  pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
+  twitter          : "sjoshi804"
   youtube          :
-  wikipedia        :
 
 
 # Reading Files
