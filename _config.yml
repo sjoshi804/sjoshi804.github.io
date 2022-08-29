@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Siddharth Joshi"
   avatar           : "profile.png"
-  bio              : "CS PhD at UCLA. Intersted in Neural Architecture Search and Pruning.
-                      Always open to chat about this / related topics!"
-  employer         : "[UCLA Computer Science Department](cs.ucla.edu)"
+  bio              : "First Year CS PhD at UCLA. Intersted in Neural Architecture Search and Pruning.
+                      Always open to chat!"
+  employer         : "UCLA"
   #googlescholar    : 
   email            : "sjoshi804@gmail.com"
   github           : "sjoshi804"

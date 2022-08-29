@@ -11,49 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, UCLA, 2022-2026(expected)
+* B.S. in Computer Science, GitHub University, 2017-2021
+* M.S. in Computer Science, GitHub University, 2019-2021
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2021 - August 2022: Software Engineer at Microsoft Azure Cosmos DB
+  * Early member of Dedicated Gateway / Integrated Cache Team
+ * Architected and implemented robust performance monitoring in a complex microservice architecture
+ * Conducted experiments on and engineered solutions for reliability and availability of distributed systems running on Microsoft Azure Service Fabric
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* June 2020 - September 2020: Software Engineer Intern
+  * Optimized TPC-DS’s highly normalized relational data schema for Document-Oriented Databases
+  * Designed and implemented data ingestion at ~100TB scale (distributed systems’ synchronization, producer consumer model, asynchronous programming)
+  * Translated TPC-DS SQL queries for Cosmos DB’s MongoDB API, Azure SQL OD and Synapse Spark
+  * Defined metrics and automated data collection to evaluate performance of TPC-DS queries
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* June 2019 - September 2019: Software and Security Engineering Intern at Akamai's Enterprise Security and Architecture Team
+  * Created secure prototype mobile client (iOS, Android) and server architecture intended as a reference for Akamai’s vendors to emulate when integrating with Akamai’s SAML-based Single Sign On workflow
+  * Designed an internal tool for managing and tracking Application Security Reviews
+  * Automated workflows involving Atlassian Jira, Cisco Webex etc. using Stackstorm 
+  * Engaged with team on Vulnerability Management, Penetration Testing, Incident Response, Application Security Reviews
