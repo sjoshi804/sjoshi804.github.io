@@ -17,3 +17,9 @@ effectively evaluate different neural network architectures.
 Feel free to hit me up to talk about any of these topics!
 
 In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium.com/@sjoshi804)), cook, play chess and run. 
+
+===
+News
+
+* July 2022: [Poster](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at [Sparsity in Neural Networks Workshop](https://www.sparseneural.net)
+
