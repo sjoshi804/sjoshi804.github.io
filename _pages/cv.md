@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * Ph.D in Computer Science, UCLA, 2022-2026(expected)
-* B.S. in Computer Science, GitHub University, 2017-2021
-* M.S. in Computer Science, GitHub University, 2019-2021
+* M.S. in Computer Science, UCLA, 2019-2021
+* B.S. in Computer Science, UCLA, 2017-2021
 
 Work experience
 ======
