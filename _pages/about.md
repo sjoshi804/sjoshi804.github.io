@@ -10,9 +10,7 @@ redirect_from:
 
 Hi, I'm Sid, a first year PhD Student studying Computer Science at UCLA. 
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/). 
-I'm currently interested in **Neural Architecture Search (NAS)** and **Neural Network Pruning**. In particular, with the current NAS methods pruning down overparameterized 
-neural networks to desired candidates, I'm generally curious about how to 
-effectively evaluate different neural network architectures. 
+I'm currently interested in understanding and exploiting data in multimodal learning and self-supervised learning (data pruning, dataset distillation, data poisoning etc.)
 
 Feel free to hit me up to talk about any of these topics!
 
@@ -20,6 +18,16 @@ In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium
 
 News
 ======
+* February 2023: [Data Efficient Contrastive Learning: Easy Examples Contribute the Most](https://arxiv.org/abs/2302.09195) Preprint on Arxiv
+* July 2022: [Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at [Sparsity in Neural Networks Workshop](https://www.sparseneural.net)
 
-* July 2022: [Poster](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at [Sparsity in Neural Networks Workshop](https://www.sparseneural.net)
+Publications
+=============
+[1] **Siddharth Joshi** and Baharan Mirzasoleiman, *[Data Efficient Contrastive Learning: Easy Examples Contribute the Most](https://arxiv.org/abs/2302.09195)*.
 
+[2] Yihao Xue, **Siddharth Joshi**, Eric Gan, Pin-Yu Chen and Baharan Mirzasoleiman, *Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression*.
+ 
+[3] **Siddharth Joshi\***, Yuhan Liu\* and Baharan Mirzasoleiman, *[Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view)* at [Sparsity in Neural Networks Workshop](https://www.sparseneural.net) 2022
+
+
+\* = equal contribution
