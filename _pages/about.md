@@ -20,9 +20,9 @@ News
 ======
 
 * June 2023: *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)* preprint on arXiv!
-* May 2023: *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)* accepted to **ICML 2023**!
-* May 2023: *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)* accepted to **ICML 2023** for an **oral (top 2%)**!
-* July 2022: [Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at **[Sparsity in Neural Networks Workshop]**(https://www.sparseneural.net)
+* May 2023: *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)* accepted to *ICML 2023*!
+* May 2023: *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)* accepted to *ICML 2023* for an *oral (top 2%)*!
+* July 2022: [Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at *[Sparsity in Neural Networks Workshop](https://www.sparseneural.net)*
 
 Publications
 =============
