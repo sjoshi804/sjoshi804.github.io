@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "First Year CS Phd Student at UCLA"
+excerpt: "CS Phd Student at UCLA"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,9 +10,12 @@ redirect_from:
 
 Hi, I'm Sid, a first year PhD Student studying Computer Science at UCLA.
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/).
-I'm currently interested in understanding and exploiting data in multi-modal learning and self-supervised learning (data pruning, dataset distillation, data poisoning etc.)
+I'm currently interested in understanding and exploiting data in multi-modal learning and self-supervised learning (data-efficiency, dataset distillation, data poisoning etc.)
 
-Feel free to hit me up to talk about any of these topics!
+**Looking to recruit undergraduate and graduate students to work with our lab on efficient and robust self-supervised and multi-modal learning.**
+[Apply here](https://forms.gle/hfgoVrGxoMABiRRj9) and email me directly if you're interested!
+
+**Pro-bono Office Hours**: I commit 1 hour every week to mentor or provide suggestions for students from underrepresented groups or whoever is in need. If this is you, and you'd like to chat about research, grad school or anything else, please fill out [this form](https://forms.gle/bKrKo3s7Td6Gnkgr7).
 
 In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium.com/@sjoshi804)), cook, play chess and run.
 
