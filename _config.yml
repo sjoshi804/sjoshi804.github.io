@@ -5,6 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Skin Edits
+plugins:
+  - jekyll-remote-theme
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Siddharth Joshi"
@@ -113,6 +120,7 @@ exclude:
   - LICENSE
   - README
   - Rakefile
+  - assets`
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -286,6 +294,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
