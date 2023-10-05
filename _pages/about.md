@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Sid, a first year PhD Student studying Computer Science at UCLA.
+Hi, I'm Sid, a second year PhD Student studying Computer Science at UCLA.
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/).
 I'm currently interested in understanding and exploiting data in multi-modal learning and self-supervised learning (data-efficiency, dataset distillation, data poisoning etc.)
 
