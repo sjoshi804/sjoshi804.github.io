@@ -10,18 +10,22 @@ redirect_from:
 
 Hi, I'm Sid, a second year PhD Student studying Computer Science at UCLA.
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/).
-I'm currently interested in understanding and exploiting data in multi-modal learning and self-supervised learning (data-efficiency, dataset distillation, data poisoning etc.)
+My research focus is on **improving efficiency, performance, and robustness of large-scale self-supervised learning by improving the quality of data**. I aim to develop practically effective and theoretically rigorous approaches to solving these problems.
 
-**Looking to recruit undergraduate and graduate students to work with our lab on efficient and robust self-supervised and multi-modal learning.**
-[Apply here](https://forms.gle/hfgoVrGxoMABiRRj9) and email me directly if you're interested!
+**Open Office Hours**: In an effort to pay forward all the help I've received in my journey so far in pursuing a career in ML research, I am dedicating 1-2 hours each week for open office hours. I am eager to contribute towards enabling students from all backgrounds further their careers in this field. This is best suited for relatively junior students (undergraduate/masters). If you'd like to chat about research, grad school or anything else, please fill out [this form](https://forms.gle/bKrKo3s7Td6Gnkgr7).
 
-**Pro-bono Office Hours**: I commit 1 hour every week to mentor or provide suggestions for students from underrepresented groups or whoever is in need. If this is you, and you'd like to chat about research, grad school or anything else, please fill out [this form](https://forms.gle/bKrKo3s7Td6Gnkgr7).
+In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium.com/@sjoshi804)), read about philosophy and run.
 
-In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium.com/@sjoshi804)), cook, play chess and run.
+
+Highlights
+======
+* **[SpuCo](https://spuco.readthedocs.io/en/latest/)**: SpuCo is a Python package developed to make research on address spurious correlations effortless. Check it out!
+* **[SAS](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning/tree/master)**: SAS selects subsets of pre-training data to enable *data-efficient. Give it a spin to try out data-efficient SSL!
 
 News
 ======
 
+* October 2023: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)* preprint on arXiv!
 * June 2023: *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)* preprint on arXiv!
 * May 2023: *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)* accepted to *ICML 2023*!
 * May 2023: *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)* accepted to *ICML 2023* for an *oral (top 2%)*!
@@ -42,3 +46,4 @@ Preprints
 
 [1] **Siddharth Joshi**, Yu Yang, Yihao Xue, Wenhan Yang and Baharan Mirzasoleiman, *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)*, arXiv.
 
+[2] Yihao Xue, **Siddharth Joshi**, Dang Nguyen and Baharan Mirzasoleiman, *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)*, arXiv.
