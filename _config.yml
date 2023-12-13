@@ -89,16 +89,14 @@ analytics:
 author:
   name             : "Siddharth Joshi"
   avatar           : "profile.png"
-  bio              : "First Year CS PhD at UCLA. Intersted in Role of Data in Efficient and Robust Self-Supervised Learning.
+  bio              : "Second Year CS PhD at UCLA. Interested in Role of Data in Efficient and Robust Self-Supervised Learning.
                       Always open to chat!"
   employer         : "UCLA"
   googlescholar    : "https://scholar.google.com/citations?user=M1YgSpUAAAAJ&hl=en"
   email            : "sjoshi804@cs.ucla.edu"
   github           : "sjoshi804"
   linkedin         : "sjoshi804"
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
   twitter          : "sjoshi804"
-  #youtube          :
 
 
 # Reading Files
