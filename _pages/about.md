@@ -12,13 +12,13 @@ Hi, I'm Sid, a second year PhD Student studying Computer Science at UCLA.
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/).
 My research focus is on **improving efficiency, performance, and robustness of large-scale self-supervised learning by improving the quality of data**. I aim to develop practically effective and theoretically rigorous approaches to solving these problems.
 
-**Open Office Hours**: In an effort to pay forward all the help I've received in my journey so far in pursuing a career in ML research, I am dedicating 1-2 hours each week for open office hours. I am eager to contribute towards enabling students from all backgrounds further their careers in this field. This is best suited for relatively junior students (undergraduate/masters). If you'd like to chat about research, grad school or anything else, please fill out [this form](https://forms.gle/bKrKo3s7Td6Gnkgr7).
+**Open Office Hours**: In an effort to pay forward all the help I've received in my journey so far in pursuing a career in ML research, I am dedicating 1-2 hours each week for open office hours. This is best suited for relatively junior students (undergraduate/masters) since I'm not very experienced myself :). If you'd like to chat about research, grad school or anything else, please fill out [this form](https://forms.gle/bKrKo3s7Td6Gnkgr7).
 
 In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium.com/@sjoshi804)), read about philosophy and run.
 
-
 Highlights
 ======
+
 * **[SAS](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning/tree/master)**: SAS selects subsets of pre-training data to enable data-efficient contrastive SSL (ICML '23). Give it a spin to try out data-efficient SSL!
 * **[SpuCo](https://spuco.readthedocs.io/en/latest/)**: SpuCo is a Python package developed to make research on address spurious correlations effortless. Check it out!
 
