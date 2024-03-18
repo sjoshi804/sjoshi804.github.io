@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Sid, a second year PhD Candidate studying Computer Science at UCLA.
+Hi, I'm Sid, a second year PhD candidate studying Computer Science at UCLA.
 I'm advised by Professor [Baharan Mirzasoleiman](http://web.cs.ucla.edu/~baharan/).
 My research focus is on **data-efficiency for learning with limited supervision** i.e. selecting the best small subsets of data for training, to reduce costs without sacrificing accuracy. I aim to develop practically effective and theoretically rigorous approaches to solving these problems.
 
@@ -27,10 +27,7 @@ News
 
 * February 2023: I have successfully *advanced to candidacy*!
 * January 2023: *Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity* is accepted to AISTATS 2024!
-* January 2023: *Investigating the Benefits of Projection Head for Representation Learning* ,*Investigating the Benefits of Projection Head for Representation Learning* and  are accepted to ICLR 2024!
-* October 2023: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)* preprint on arXiv!
-
-* October 2023: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)* preprint on arXiv!
+* January 2023: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)* and *Investigating the Benefits of Projection Head for Representation Learning* are accepted to ICLR 2024!
 * June 2023: *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)* preprint on arXiv!
 * May 2023: *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)* accepted to *ICML 2023*!
 * May 2023: *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)* accepted to *ICML 2023* for an *oral (top 2%)*!
