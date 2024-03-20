@@ -36,17 +36,17 @@ News
 Publications
 =============
 
-[1] **Siddharth Joshi**, Arnav Jain, Ali Payani and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)*, AISTATS 2024.
+[1] **Siddharth Joshi**, Arnav Jain, Ali Payani and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)*, **AISTATS 2024**.
 
-[2] Yihao Xue, **Siddharth Joshi**, Dang Nguyen and Baharan Mirzasoleiman, *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)*, ICLR 2024.
+[2] Yihao Xue, **Siddharth Joshi**, Dang Nguyen and Baharan Mirzasoleiman, *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)*, **ICLR 2024**.
 
-[3] Yihao Xue, Eric Gan, Jiayi Ni, **Siddharth Joshi** and Baharan Mirzasoleiman, *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)*, ICLR 2024.
+[3] Yihao Xue, Eric Gan, Jiayi Ni, **Siddharth Joshi** and Baharan Mirzasoleiman, *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)*, **ICLR 2024**.
 
-[4] **Siddharth Joshi** and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)*, ICML 2023.
+[4] **Siddharth Joshi** and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)*, **ICML 2023**.
 
-[5] Yihao Xue, **Siddharth Joshi**, Eric Gan, Pin-Yu Chen and Baharan Mirzasoleiman, *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)*, ICML 2023 (Oral).
+[5] Yihao Xue, **Siddharth Joshi**, Eric Gan, Pin-Yu Chen and Baharan Mirzasoleiman, *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)*, **ICML 2023 (Oral)**.
 
-[6] **Siddharth Joshi\***, Yuhan Liu\* and Baharan Mirzasoleiman, *[Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view)*, [Sparsity in Neural Networks Workshop](https://www.sparseneural.net) 2022.
+[6] **Siddharth Joshi\***, Yuhan Liu\* and Baharan Mirzasoleiman, *[Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view)*, **[Sparsity in Neural Networks Workshop](https://www.sparseneural.net) 2022**.
 
 \* = equal contribution
 
