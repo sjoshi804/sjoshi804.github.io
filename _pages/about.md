@@ -19,7 +19,7 @@ In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium
 Highlights
 ======
 
-* **Foundations of Data-efficient Machine Learning** tutorial at **ICML '24**: Will be giving a 2 hour tutorial at ICML '24 on principled approaches to data curation / pruning for efficient learning!
+* **Foundations of Data-efficient Machine Learning Tutorial @ ICML '24**: Will be giving a 2 hour tutorial at ICML '24 on principled approaches to data curation / pruning for efficient learning!
 * **[SAS](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning/tree/master)**: SAS selects subsets of pre-training data to enable data-efficient contrastive SSL (ICML '23). Give it a spin to try out data-efficient SSL!
 * **[SpuCo](https://spuco.readthedocs.io/en/latest/)**: SpuCo is a Python package developed to make research on address spurious correlations effortless. Check it out!
 
