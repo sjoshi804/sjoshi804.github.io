@@ -27,7 +27,7 @@ News
 ======
 
 * July 2024: Will be giving tutorial on *Foundations of Data-Efficient Learning* at *ICML '24*!
-* June 2024: Will be interning this summer at Microsoft Research under [Dr. Hamid Palangi](https://www.hamidpalangi.com/)!
+* June 2024: Will be interning this summer at *Microsoft Research (AI Frontiers Team)* under [Dr. Hamid Palangi](https://www.hamidpalangi.com/)!
 * February 2024: I have successfully *advanced to candidacy*!
 * January 2024: *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)* is accepted to AISTATS 2024!
 * January 2024: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://yihaoxue.github.io/mmcl-project-page/)* and *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)* are accepted to ICLR 2024!
