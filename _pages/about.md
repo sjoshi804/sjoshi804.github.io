@@ -19,12 +19,15 @@ In my free time, I like to write ([https://medium.com/@sjoshi804](https://medium
 Highlights
 ======
 
+* Will be giving a 2 hour tutorial at **ICML '24** on **Foundations of Data-efficient Machine Learning**. Please attend to find more about principled approaches to data curation / pruning for efficient learning!
 * **[SAS](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning/tree/master)**: SAS selects subsets of pre-training data to enable data-efficient contrastive SSL (ICML '23). Give it a spin to try out data-efficient SSL!
 * **[SpuCo](https://spuco.readthedocs.io/en/latest/)**: SpuCo is a Python package developed to make research on address spurious correlations effortless. Check it out!
 
 News
 ======
 
+* July 2024: Will be giving tutorial on **Foundations of Data-Efficient Learning** at **ICML '24**!
+* June 2024: Will be interning at Microsoft Research under [Dr. Hamid Palangi](https://www.hamidpalangi.com/)!
 * February 2024: I have successfully *advanced to candidacy*!
 * January 2024: *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)* is accepted to AISTATS 2024!
 * January 2024: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://yihaoxue.github.io/mmcl-project-page/)* and *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)* are accepted to ICLR 2024!
