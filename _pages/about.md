@@ -20,6 +20,7 @@ Highlights
 ======
 
 * **Foundations of Data-efficient Machine Learning Tutorial @ ICML '24**: Will be giving a 2 hour tutorial at ICML '24 on principled approaches to data curation / pruning for efficient learning!
+* **[CLIPCov](https://sjoshi804.github.io/data-efficient-clip/)**: CLIPCov selects subsets of pre-training data to enable data-efficient contrastive language-image pre-training (CLIP) (AISTATS '24). Speed up your CLIP model training with theoretically-grounded data-efficiency!
 * **[SAS](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning/tree/master)**: SAS selects subsets of pre-training data to enable data-efficient contrastive SSL (ICML '23). Give it a spin to try out data-efficient SSL!
 * **[SpuCo](https://spuco.readthedocs.io/en/latest/)**: SpuCo is a Python package developed to make research on address spurious correlations effortless. Check it out!
 
@@ -39,11 +40,11 @@ News
 Publications
 =============
 
-[1] **Siddharth Joshi**, Arnav Jain, Ali Payani and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)*, **AISTATS 2024**.
+[1] **Siddharth Joshi**, Arnav Jain, Ali Payani and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://sjoshi804.github.io/data-efficient-clip/)*, **AISTATS 2024**.
 
-[2] Yihao Xue, **Siddharth Joshi**, Dang Nguyen and Baharan Mirzasoleiman, *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://arxiv.org/abs/2310.04971)*, **ICLR 2024**.
+[2] Yihao Xue, **Siddharth Joshi**, Dang Nguyen and Baharan Mirzasoleiman, *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://yihaoxue.github.io/mmcl-project-page/)*, **ICLR 2024**.
 
-[3] Yihao Xue, Eric Gan, Jiayi Ni, **Siddharth Joshi** and Baharan Mirzasoleiman, *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)*, **ICLR 2024**.
+[3] Yihao Xue, Eric Gan, Jiayi Ni, **Siddharth Joshi** and Baharan Mirzasoleiman, *[Investigating the Benefits of Projection Head for Representation Learning](https://yihaoxue.github.io/projection-head-project-page/)*, **ICLR 2024**.
 
 [4] **Siddharth Joshi** and Baharan Mirzasoleiman, *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)*, **ICML 2023**.
 
