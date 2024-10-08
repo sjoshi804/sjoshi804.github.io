@@ -27,12 +27,13 @@ Highlights
 News
 ======
 
+* October 2024: *[Dataset Distillation via Knowledge Distillation: Towards Efficient Self-Supervised Pre-Training of Deep Networks](https://arxiv.org/abs/2410.02116)* preprint on arXiv!
 * July 2024: Will be giving tutorial on *[Foundations of Data-Efficient Learning](https://sjoshi804.github.io/data-efficient-learning-talk/)* at *ICML '24*!
 * June 2024: Will be interning this summer at *Microsoft Research (AI Frontiers Team)* under [Dr. Neel Joshi](https://neelj.com/)!
 * February 2024: I have successfully *advanced to candidacy*!
 * January 2024: *[Data-Efficient Contrastive Language-Image Pretraining: Prioritizing Data Quality over Quantity](https://arxiv.org/abs/2403.12267)* is accepted to AISTATS 2024!
 * January 2024: *[Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift](https://yihaoxue.github.io/mmcl-project-page/)* and *[Investigating the Benefits of Projection Head for Representation Learning](https://arxiv.org/abs/2403.11391)* are accepted to ICLR 2024!
-* June 2023: *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)* preprint on arXiv!
+* June 2023: *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & New Datasets](https://arxiv.org/abs/2306.11957)* preprint on arXiv!
 * May 2023: *[Data-Efficient Contrastive Self-supervised Learning: Most Beneficial Examples for Supervised Learning Contribute the Least](https://sjoshi804.github.io/data-efficient-contrastive-learning/)* accepted to *ICML 2023*!
 * May 2023: *[Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression](https://sjoshi804.github.io/icml-cc-fs/)* accepted to *ICML 2023* for an *oral (top 2%)*!
 * July 2022: [Low Rank Pruning via Output Perturbation](https://drive.google.com/file/d/1FhuJxrbW554UsMt92WR5B1sCaw8P1odl/view) at *[Sparsity in Neural Networks Workshop](https://www.sparseneural.net)*
@@ -57,4 +58,6 @@ Publications
 Preprints
 =============
 
-[1] **Siddharth Joshi**, Yu Yang, Yihao Xue, Wenhan Yang and Baharan Mirzasoleiman, *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset](https://arxiv.org/abs/2306.11957)*, arXiv.
+[1] **Siddharth Joshi**, Yu Yang, Yihao Xue, Wenhan Yang and Baharan Mirzasoleiman, *[Towards Mitigating Spurious Correlations in the Wild: A Benchmark & New Datasets](https://arxiv.org/abs/2306.11957)*, arXiv.
+
+[2] **Siddharth Joshi**, Jiayi Ni and Baharan Mirzasoleiman, *[Dataset Distillation via Knowledge Distillation: Towards Efficient Self-Supervised Pre-Training of Deep Networks](https://arxiv.org/abs/2410.02116)*, arXiv.
