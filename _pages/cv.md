@@ -17,6 +17,13 @@ Education
 
 Work experience
 ======
+* June 2025 - Present: Member of Technical Staff at **DatologyAI**
+  * Leading data curation for Vision-Language Models (VLMs)
+  * Started as Research Scientist Intern, converted to MTS
+
+* Summer 2024: Research Intern at **Microsoft Research (AI Frontiers Team)**
+  * Worked under Dr. Neel Joshi on multimodal data curation
+
 * May 2021 - August 2022: Software Engineer at **Microsoft Azure Cosmos DB**
   * Early member of Dedicated Gateway / Integrated Cache Team
   * Architected and implemented robust performance monitoring in a complex microservice architecture

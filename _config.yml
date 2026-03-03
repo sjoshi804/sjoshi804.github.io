@@ -17,7 +17,7 @@ locale                   : "en-US"
 title                    : "Siddharth Joshi"
 title_separator          : "-"
 name                     : &name "Siddharh Joshi"
-description              : &description "CS PhD Student at UCLA"
+description              : &description "MTS at DatologyAI | CS PhD Candidate at UCLA"
 url                      : https://sjoshi804.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sjoshi804/sjoshi804.github.io"
@@ -89,9 +89,9 @@ analytics:
 author:
   name             : "Siddharth Joshi"
   avatar           : "profile.png"
-  bio              : "Second Year CS PhD at UCLA. Interested in Role of Data in Efficient and Robust Learning with Limited Supervision.
+  bio              : "MTS at DatologyAI. Fourth Year CS PhD at UCLA. Interested in Data Curation for Efficient and Robust Learning.
                       Always open to chat!"
-  employer         : "UCLA"
+  employer         : "DatologyAI / UCLA"
   googlescholar    : "https://scholar.google.com/citations?user=M1YgSpUAAAAJ&hl=en"
   email            : "sjoshi804@cs.ucla.edu"
   github           : "sjoshi804"
