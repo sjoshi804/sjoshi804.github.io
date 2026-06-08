@@ -1,0 +1,81 @@
+# =============================================================
+# Featured work tiles (the centerpiece grid under "Work").
+# To add a project: copy a block, fill it in, place it where you
+# want it to appear. Set `feature: true` for a large full-width tile.
+#
+# Fields:
+#   feature  : true => big full-width tile (use for the flagship)
+#   tag      : small label, e.g. "2026 · Vision-Language Models"
+#   pill     : short colored badge, e.g. "Flagship" / "Evals" (optional)
+#   title    : project name
+#   subtitle : one-line description (optional)
+#   byline   : compact credit, e.g. "DatologyAI · Joshi et al." for first-author work (optional)
+#   body     : paragraph (markdown ok)
+#   metrics  : list of { value, label } chips (optional)
+#   links    : list of { text, url }
+# =============================================================
+
+- feature: true
+  pill: "Flagship"
+  tag: "2026 · Vision-Language Models"
+  title: "20/20 Vision Language Models"
+  subtitle: "A Prescription for Better VLMs through Data Curation Alone"
+  byline: "DatologyAI · Joshi et al."
+  body: >
+    Hold the architecture, recipe, and compute fixed — vary _only_ the pretraining data.
+    Our pipeline (multimodal deduplication, quality filtering, mixture design, and both
+    task-agnostic and task-specific synthetic data, all with rigorous multimodal decontamination)
+    produces much better vision-language models — reproducibly.
+  metrics:
+    - value: "+11.7pp"
+      label: "across 20 public VLM benchmarks @ 2B"
+    - value: "~17×"
+      label: "less train compute vs. InternVL3.5-2B (~10pp better)"
+    - value: "3.3×"
+      label: "lower response FLOPs vs. Qwen3-VL-4B, near-frontier @ 4B"
+    - value: "+57.1pp"
+      label: "grounding on RefCOCO"
+    - value: "−67%"
+      label: "cross-seed variance (2.47 → 0.82pp)"
+  links:
+    - text: "Blog"
+      url: "https://www.datologyai.com/blog/2020-vision-language-models-a-prescription-for-better-vlms-through-data-curation-alone"
+    - text: "arXiv"
+      url: "https://arxiv.org/abs/2605.11405"
+
+- pill: "Evals"
+  tag: "2026 · arXiv"
+  title: "DatBench"
+  subtitle: "Discriminative, Faithful & Efficient VLM Evaluations"
+  byline: "DatologyAI · Joshi et al."
+  body: >
+    VLM benchmarks are broken: multiple-choice inflates scores, many questions are
+    solvable without the image, and full suites are ruinously expensive. DatBench fixes this by
+    converting MCQ to generative, filtering blind-solvable (up to 72%) and mislabeled
+    samples, and selecting only high-discrimination items.
+  metrics:
+    - value: "13×"
+      label: "avg speedup (up to 50×)"
+    - value: "33"
+      label: "datasets · 9 capabilities"
+    - value: "40%"
+      label: "of the data, same signal"
+  links:
+    - text: "Blog"
+      url: "https://www.datologyai.com/blog/datbench-discriminative-faithful-and-efficient-vision-language-model-evaluations"
+    - text: "arXiv"
+      url: "https://arxiv.org/abs/2601.02316"
+
+- pill: "Infra"
+  tag: "Internal"
+  title: "The VLM training stack"
+  subtitle: "From scratch, with the multimodal team"
+  body: >
+    None of the curation results matter without a training and evaluation stack you can trust.
+    We built and optimized a full VLM pretraining pipeline from scratch — so controlled,
+    data-only experiments are reproducible at scale.
+  metrics:
+    - value: "1B→4B"
+      label: "consistent gains across scale"
+    - value: "data-only"
+      label: "controlled experimentation"

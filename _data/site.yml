@@ -1,0 +1,82 @@
+# =============================================================
+# Global homepage content — hero, links, stats, about story.
+# Edit plain text here; the layout (_layouts/home.html) renders it.
+# =============================================================
+
+eyebrow: "Member of Technical Staff · DatologyAI"
+
+# Hero headline. Wrap the highlighted span in [hl]...[/hl].
+headline: "Better models through [hl]better data[/hl]."
+
+lead: >
+  I'm Sid, and I lead **multimodal data curation at DatologyAI** — because curating the
+  data is the highest-leverage way to improve a model. My work spans the research behind
+  **state-of-the-art curation pipelines**, the **production-grade training infrastructure**
+  that runs them, and **evaluation research** — because good evals are upstream of all good
+  ML research.
+
+# Social / contact links (used in hero buttons + footer).
+links:
+  twitter: "https://x.com/sjoshi804"
+  github: "https://github.com/sjoshi804"
+  scholar: "https://scholar.google.com/citations?user=Vlhry2YAAAAJ"
+  medium: "https://medium.com/@sjoshi804"
+  substack: "https://substack.com/@sjoshi804"
+  email: "sjoshi804@cs.ucla.edu"
+  cv: "https://drive.google.com/file/d/1r3Li48sFhU_2Jeucs0b_n6GcRWrvVPsY/view?usp=sharing"
+
+photo: "/images/profile.png"
+
+# Three flagship achievements highlighted at the very top of the page.
+# Each: eyebrow, title, blurb, one headline metric (the number animates up),
+# and a link (href). External links (starting http) open in a new tab.
+highlights:
+  - eyebrow: "Flagship · 2026"
+    title: "20/20 Vision Language Models"
+    blurb: "Better VLMs through data curation alone — fixed architecture, recipe, and compute."
+    metric: "11.7"
+    metric_prefix: "+"
+    metric_suffix: "pp"
+    metric_label: "across 20 VLM benchmarks @ 2B"
+    href: "#work"
+  - eyebrow: "Evaluations · 2026"
+    title: "DatBench"
+    blurb: "Discriminative, faithful, efficient VLM evals — MCQ → generative, blind-solvable filtered."
+    metric: "13"
+    metric_suffix: "×"
+    metric_label: "faster, same discriminative signal"
+    href: "#work"
+  - eyebrow: "Tutorial · ICML '24"
+    title: "Foundations of Data-Efficient Learning"
+    blurb: "A 2-hour ICML tutorial on principled data curation & pruning for efficient learning."
+    metric: "2"
+    metric_suffix: "hr"
+    metric_label: "tutorial · slides & video"
+    href: "https://icml.cc/virtual/2024/tutorial/35234"
+
+# "About / Why I do this" section.
+story:
+  quote: >
+    Five years ago I left a comfortable software job in Big Tech to start a PhD. Last year I left
+    the PhD to join Datology. Both were the same bet:
+    [hl]I wanted to do research in the truest sense of the word[/hl].
+  body: >
+    Not chasing deadlines — sitting with messy, unsolved, sometimes previously unheard-of problems
+    and slowly making sense of them. Deep learning hooked me precisely because it blends empiricism,
+    mathematics, and real-world impact all at once, and I've chased that feeling across every risk
+    I've taken since. I care about research that's both rigorous and genuinely useful — and, just as
+    much, about growing the people I get to work with along the way.
+  punchline: "Take risks. Bet on yourself."
+  attribution: >
+    When I'm not training models, you'll find me reading philosophy, out on a run, or writing —
+    long-form at [Medium](https://medium.com/@sjoshi804) and, more lately, on
+    [Substack](https://substack.com/@sjoshi804).
+
+office_hours:
+  title: "Open office hours"
+  short: "I set aside a couple of hours a week for mentorship — research, careers, or whatever's on your mind."
+  body: >
+    Paying forward the help I've received: I set aside a couple of hours each week for open
+    mentorship — happy to talk through research, careers, or whatever's on your mind.
+  link: "https://forms.gle/bKrKo3s7Td6Gnkgr7"
+  link_text: "Grab a slot →"

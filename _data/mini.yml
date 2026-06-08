@@ -1,0 +1,28 @@
+# =============================================================
+# Smaller "also contributed to" tiles (3-up grid).
+# Fields: tag, title, body, links: [{ text, url }]
+# =============================================================
+
+heading: "Scaling data curation beyond images"
+
+items:
+  - tag: "2025 · arXiv"
+    title: "BeyondWeb"
+    body: "Lessons from scaling synthetic data for trillion-scale pretraining."
+    links:
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2508.10975"
+
+  - tag: "2026 · arXiv"
+    title: "ÜberWeb"
+    body: "Multilingual curation for a 20-trillion-token dataset."
+    links:
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2602.15210"
+
+  - tag: "2025 · arXiv"
+    title: "Luxical"
+    body: "High-speed lexical-dense text embeddings for retrieval and curation."
+    links:
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2512.09015"

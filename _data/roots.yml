@@ -1,0 +1,37 @@
+# =============================================================
+# "Research roots" — earlier / academic work (compact cards).
+# Fields:
+#   venue : short badge, e.g. "ICML '24"
+#   title : project name
+#   body  : one line; inline markdown links allowed for [Paper](url) etc.
+# =============================================================
+
+intro: >
+  Before Datology, I spent my PhD at UCLA working on the theory and practice of
+  **data-efficient learning** — selecting or generating the best subsets of data to
+  train on. It's a straight line to the work I do now.
+
+items:
+  - venue: "ICML '24"
+    title: "Foundations of Data-Efficient Learning"
+    body: "A 2-hour tutorial on principled data curation & pruning. [Tutorial](https://icml.cc/virtual/2024/tutorial/35234) · [Video](https://www.youtube.com/watch?v=30VkdWuwmdA)"
+
+  - venue: "DMLR '25"
+    title: "MM-GEN"
+    body: "First fully-automated VLM data curation method — improves downstream tasks from as few as 50 reference examples. [Paper](https://arxiv.org/abs/2501.04155) · [Code](https://github.com/sjoshi804/MM-Gen)"
+
+  - venue: "AISTATS '24"
+    title: "CLIPCov"
+    body: "Data-efficient CLIP pretraining — speed up training 50%+ with theoretically-grounded subset selection. [Project](https://sjoshi804.github.io/data-efficient-clip/)"
+
+  - venue: "ICML '23"
+    title: "SAS"
+    body: "Subset selection for data-efficient contrastive self-supervised learning — 40%+ faster SSL. [Code](https://github.com/sjoshi804/sas-data-efficient-contrastive-learning)"
+
+  - venue: "Toolkit"
+    title: "SpuCo"
+    body: "A Python package that makes research on spurious correlations effortless. [Docs](https://spuco.readthedocs.io/en/latest/)"
+
+  - venue: "ICML '23"
+    title: "Class Collapse & Feature Suppression"
+    body: "What contrastive learning actually learns — the role of simplicity bias. **Oral, top 2%.** [Project](https://sjoshi804.github.io/icml-cc-fs/)"

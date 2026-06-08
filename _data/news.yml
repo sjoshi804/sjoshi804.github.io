@@ -1,0 +1,46 @@
+# =============================================================
+# News timeline. Newest first.
+# The first 4 entries show by default; the rest hide behind
+# "Show older news". Fields:
+#   date : short label, e.g. "2026" or "Jun 2025"
+#   text : markdown (links, **bold**, _italic_ all work)
+# =============================================================
+
+- date: "2026"
+  text: "**20/20 Vision Language Models** — the culmination of our multimodal team's year of work — is out. [arXiv](https://arxiv.org/abs/2605.11405) · [blog](https://www.datologyai.com/blog/2020-vision-language-models-a-prescription-for-better-vlms-through-data-curation-alone)"
+
+- date: "2026"
+  text: "_DatBench: Discriminative, Faithful, and Efficient VLM Evaluations_ preprint on arXiv."
+
+- date: "2026"
+  text: "_ÜberWeb: Insights from Multilingual Curation for a 20-Trillion-Token Dataset_ preprint on arXiv."
+
+- date: "2025"
+  text: "Grew into **leading multimodal data curation at DatologyAI** as Member of Technical Staff."
+
+- date: "2025"
+  text: "_Luxical: High-Speed Lexical-Dense Text Embeddings_ preprint on arXiv."
+
+- date: "2025"
+  text: "_BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale Pretraining_ preprint on arXiv."
+
+- date: "Sep 2025"
+  text: "_MM-GEN_ published in the Journal of Data-centric ML Research (DMLR) 2025."
+
+- date: "Jun 2025"
+  text: "Joined DatologyAI as a Research Scientist Intern, then stayed on as MTS."
+
+- date: "Jan 2025"
+  text: "_Dataset Distillation via Knowledge Distillation_ accepted to ICLR '25."
+
+- date: "Jul 2024"
+  text: "Gave the _Foundations of Data-Efficient Learning_ tutorial at ICML '24."
+
+- date: "Jun 2024"
+  text: "Interned at Microsoft Research (AI Frontiers Team)."
+
+- date: "2024"
+  text: "Three papers accepted across AISTATS '24 and ICLR '24; advanced to PhD candidacy."
+
+- date: "2023"
+  text: "Two papers at ICML '23 (one Oral, top 2%)."

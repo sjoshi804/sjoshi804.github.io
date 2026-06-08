@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+{%- assign s = site.data.site -%}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} — Multimodal Data Curation @ DatologyAI</title>
+  <meta name="description" content="Siddharth Joshi leads multimodal data curation at DatologyAI — building the VLM training stack, evaluations, and curation research behind state-of-the-art vision-language models.">
+  <meta name="author" content="Siddharth Joshi">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Siddharth Joshi — Multimodal Data Curation @ DatologyAI">
+  <meta property="og:description" content="Better models through better data. VLM data curation, evals, and training at DatologyAI.">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ s.photo }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@sjoshi804">
+
+  <link rel="icon" href="{{ '/images/site-logo.png' | relative_url }}">
+  <link rel="canonical" href="{{ site.url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top"><span class="nav__dot"></span>Siddharth Joshi</a>
+    <nav class="nav__links">
+      <a href="#work">Work</a>
+      <a href="#roots">Research</a>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a class="nav__cta" href="{{ s.links.cv }}" target="_blank" rel="noopener">CV</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== SCROLLSPY (left rail) ===================== -->
+<nav class="scrollspy" aria-label="Section navigation">
+  <a href="#intro" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">Intro</span></a>
+  <a href="#work" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">Work</span></a>
+  <a href="#roots" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">Research</span></a>
+  <a href="#about" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">About</span></a>
+  <a href="#publications" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">Papers</span></a>
+  <a href="#news" data-spy><span class="scrollspy__dot"></span><span class="scrollspy__label">News</span></a>
+</nav>
+
+<main id="top">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="intro">
+  <div class="wrap">
+    <div class="hero__grid">
+      <div class="reveal in">
+        <span class="eyebrow"><span class="pulse"></span>{{ s.eyebrow }}</span>
+        <h1>{{ s.headline | replace: '[hl]', '<span class="hl">' | replace: '[/hl]', '</span>' }}</h1>
+        <div class="hero__lead">{{ s.lead | markdownify }}</div>
+        <div class="btns">
+          <a class="btn btn--primary" href="#work">
+            See the work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+          </a>
+          <div class="socials">
+            <a class="ico" href="{{ s.links.twitter }}" target="_blank" rel="noopener" aria-label="Twitter / X" title="Twitter / X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a class="ico" href="{{ s.links.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.92 1.23 3.23 0 4.62-2.81 5.64-5.49 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+            </a>
+            <a class="ico" href="{{ s.links.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.547 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            </a>
+            <a class="ico" href="{{ s.links.substack }}" target="_blank" rel="noopener" aria-label="Substack" title="Substack">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+            </a>
+            <a class="ico" href="{{ s.links.medium }}" target="_blank" rel="noopener" aria-label="Medium" title="Medium">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            </a>
+            <a class="ico" href="mailto:{{ s.links.email }}" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__photo reveal in d1">
+        <img src="{{ s.photo | relative_url }}" alt="Siddharth Joshi">
+      </div>
+    </div>
+
+    <!-- top highlights: flagship achievements -->
+    <div class="highlights">
+      {%- for h in s.highlights %}
+      <a class="hl-card reveal{% if forloop.index0 == 1 %} d1{% elsif forloop.index0 == 2 %} d2{% endif %}" href="{{ h.href }}"{% if h.href contains 'http' %} target="_blank" rel="noopener"{% endif %}>
+        <span class="hl-card__eyebrow">{{ h.eyebrow }}</span>
+        <h3 class="hl-card__title">{{ h.title }}</h3>
+        <p class="hl-card__blurb">{{ h.blurb }}</p>
+        <div class="hl-card__metric">
+          <span class="hl-card__num" data-count="{{ h.metric }}"{% if h.metric_prefix %} data-prefix="{{ h.metric_prefix }}"{% endif %}{% if h.metric_suffix %} data-suffix="{{ h.metric_suffix }}"{% endif %}>{{ h.metric_prefix }}{{ h.metric }}{{ h.metric_suffix }}</span>
+          <span class="hl-card__mlabel">{{ h.metric_label }}</span>
+        </div>
+        <span class="hl-card__go">Explore →</span>
+      </a>
+      {%- endfor %}
+    </div>
+
+    <!-- office hours strip -->
+    <a class="oh-strip reveal" href="{{ s.office_hours.link }}" target="_blank" rel="noopener">
+      <span class="oh-strip__icon">☕</span>
+      <span class="oh-strip__text"><strong>{{ s.office_hours.title }}</strong> — {{ s.office_hours.short }}</span>
+      <span class="oh-strip__go">{{ s.office_hours.link_text }}</span>
+    </a>
+  </div>
+</section>
+
+<!-- ===================== FEATURED WORK ===================== -->
+<section class="section section--b" id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">// What I build at DatologyAI</span>
+      <h2>Leading multimodal data curation</h2>
+      <p>Over the past year, our team built a VLM training stack from scratch, rethought how VLMs
+        are evaluated, and ran a lot of exhilarating new research on data curation. A few highlights.</p>
+    </div>
+
+    <div class="tiles">
+      {%- for p in site.data.featured %}
+      <article class="tile{% if p.feature %} tile--feature{% endif %} reveal">
+        <span class="tile__tag">{% if p.pill %}<span class="pill">{{ p.pill }}</span> {% endif %}{{ p.tag }}</span>
+        <h3>{{ p.title }}</h3>
+        {%- if p.subtitle %}<p class="tile__sub">{{ p.subtitle }}</p>{% endif %}
+        {%- if p.byline %}<p class="tile__by">{{ p.byline }}</p>{% endif %}
+        <p>{{ p.body | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {%- if p.metrics %}
+        <div class="metrics">
+          {%- for m in p.metrics %}
+          <div class="metric"><b>{{ m.value }}</b><span>{{ m.label }}</span></div>
+          {%- endfor %}
+        </div>
+        {%- endif %}
+        <div class="tile__foot">
+          {%- if p.links %}
+          <div class="links">
+            {%- for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}
+          </div>
+          {%- endif %}
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+
+    <!-- smaller mentions -->
+    <div class="sec-head reveal" style="margin-top:48px;">
+      <span class="kicker">// Also contributed to</span>
+      <h2 style="font-size:1.35rem;">{{ site.data.mini.heading }}</h2>
+    </div>
+    <div class="tiles tiles--mini">
+      {%- for p in site.data.mini.items %}
+      <article class="tile tile--mini reveal">
+        <span class="tile__tag">{{ p.tag }}</span>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.body | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {%- if p.links %}
+        <div class="links">
+          {%- for l in p.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% endfor %}
+        </div>
+        {%- endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESEARCH ROOTS ===================== -->
+<section class="section section--a" id="roots">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">// Where the ideas come from</span>
+      <h2>Research roots</h2>
+      <p>{{ site.data.roots.intro | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+    <div class="roots">
+      {%- for r in site.data.roots.items %}
+      <div class="root reveal">
+        <span class="root__venue">{{ r.venue }}</span>
+        <div>
+          <h4>{{ r.title }}</h4>
+          <p>{{ r.body | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT / STORY ===================== -->
+<section class="section section--b" id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">// Why I do this</span>
+      <h2>About</h2>
+    </div>
+    <div class="story reveal">
+      <blockquote>{{ s.story.quote | replace: '[hl]', '<span class="hl">' | replace: '[/hl]', '</span>' }}</blockquote>
+      <p>{{ s.story.body | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <p style="font-family:var(--serif);font-weight:600;color:var(--ink);font-size:1.15rem;">{{ s.story.punchline }}</p>
+      <p class="story__attr">{{ s.story.attribution | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PUBLICATIONS ===================== -->
+<section class="section section--a" id="publications">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">// Selected work</span>
+      <h2>Publications &amp; preprints</h2>
+    </div>
+
+    <div class="reveal">
+      <div class="pubtabs" role="tablist">
+        <button class="pubtab" role="tab" aria-selected="true" data-target="pub-published">Published</button>
+        <button class="pubtab" role="tab" aria-selected="false" data-target="pub-preprints">Preprints</button>
+      </div>
+
+      {%- assign lists = "published,preprints" | split: "," %}
+      {%- for key in lists %}
+      <ul class="publist" id="pub-{{ key }}"{% if key == "preprints" %} hidden{% endif %}>
+        {%- assign entries = site.data.publications[key] %}
+        {%- for e in entries %}
+        <li class="pub"><span class="pub__n">[{{ forloop.index }}]</span><div class="pub__body">
+          <div class="pub__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></div>
+          <div class="pub__authors">{{ e.authors | replace: '[me]', '<span class="me">' | replace: '[/me]', '</span>' }}</div>
+          <span class="pub__venue{% if e.oral %} oral{% endif %}">{{ e.venue }}</span>
+        </div></li>
+        {%- endfor %}
+      </ul>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== NEWS ===================== -->
+<section class="section section--b" id="news">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kicker">// Recent</span>
+      <h2>News</h2>
+    </div>
+    <ul class="news reveal">
+      {%- for n in site.data.news %}
+      <li class="newsitem{% if forloop.index > 4 %} news-more{% endif %}"><time>{{ n.date }}</time><p>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</p></li>
+      {%- endfor %}
+    </ul>
+    {%- assign extra = site.data.news | size %}
+    {%- if extra > 4 %}<button class="news-toggle" type="button">Show older news</button>{% endif %}
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <h3>Let's talk data.</h3>
+        <p>Always happy to chat about VLMs, data curation, and doing research in the truest sense.</p>
+      </div>
+      <div class="foot__links">
+        <a href="{{ s.links.twitter }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Twitter</a>
+        <a href="{{ s.links.github }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.92 1.23 3.23 0 4.62-2.81 5.64-5.49 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>GitHub</a>
+        <a href="{{ s.links.scholar }}" target="_blank" rel="noopener">Scholar</a>
+        <a href="{{ s.links.substack }}" target="_blank" rel="noopener">Substack</a>
+        <a href="{{ s.links.medium }}" target="_blank" rel="noopener">Medium</a>
+        <a href="mailto:{{ s.links.email }}">Email</a>
+        <a href="{{ s.links.cv }}" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+    <div class="foot__bar">
+      <span>© {{ site.time | date: '%Y' }} Siddharth Joshi · Member of Technical Staff, DatologyAI</span>
+      <span>Built with Jekyll · deployed on GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/home.js' | relative_url }}"></script>
+</body>
+</html>
