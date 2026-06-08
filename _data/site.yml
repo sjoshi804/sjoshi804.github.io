@@ -9,11 +9,11 @@ eyebrow: "Member of Technical Staff · DatologyAI"
 headline: "Better models through [hl]better data[/hl]"
 
 lead: >
-  I'm Sid, and I lead **multimodal data curation at DatologyAI** — because curating the
-  data is the highest-leverage way to improve a model. My work spans the research behind
-  **state-of-the-art curation pipelines**, the **production-grade training infrastructure**
-  that runs them, and **evaluation research** — because good evals are upstream of all good
-  ML research.
+  I'm Sid, and I lead **multimodal data curation at DatologyAI**. My thesis is that
+  curating the data is the highest-leverage way to improve a model. My work spans the
+  research behind **state-of-the-art curation pipelines**, the **production-grade training
+  infrastructure** that runs them, and **evaluation research** — because good evals are
+  upstream of all good ML research.
 
 # Social / contact links (used in hero buttons + footer).
 links:
