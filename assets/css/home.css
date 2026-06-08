@@ -165,8 +165,6 @@ a:hover { color: var(--accent-ink); }
 .hero__photo { justify-self: center; width: 100%; max-width: 300px; }
 .hero__photo img {
   display: block; width: 100%; height: auto;
-  border-radius: 22px; border: 1px solid rgba(16,16,26,.06);
-  box-shadow: var(--shadow-lg);
 }
 @media (max-width: 860px) { .hero__photo { max-width: 230px; } }
 
