@@ -25,7 +25,7 @@ heavily commented with its schema. The layout loops over these files automatical
 | `_data/featured.yml`     | Main "Work" tiles (flagship is `feature: true`). |
 | `_data/mini.yml`         | The smaller 3-up "also contributed to" tiles. |
 | `_data/roots.yml`        | "Research roots" cards (PhD / earlier work). |
-| `_data/publications.yml` | Publications + Preprints tabs. |
+| `_data/publications.yml` | One master `papers:` list → "Selected" tab (`selected: true`) + "Full" tab (all). |
 | `_data/news.yml`         | News timeline (first 4 shown, rest behind a toggle). |
 
 ### Markup conventions inside the YAML
@@ -37,8 +37,9 @@ heavily commented with its schema. The layout loops over these files automatical
 
 ## Common tasks (agent playbook)
 
-- **New paper / preprint** → add an entry at the TOP of the relevant list in
-  `_data/publications.yml`, and add a one-line entry at the top of `_data/news.yml`.
+- **New paper / preprint** → add an entry at the TOP of `papers:` in
+  `_data/publications.yml` (newest first); set `selected: true` to feature it in the
+  "Selected" tab. Also add a one-line entry at the top of `_data/news.yml`.
 - **New flagship project** → add a block to `_data/featured.yml` (set `feature: true`
   for the big tile; demote the previous flagship by removing that flag).
 - **Update the hero pitch or stats** → edit `_data/site.yml`.

@@ -219,21 +219,34 @@
 <section class="section section--a" id="publications">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="kicker">// Selected work</span>
+      <span class="kicker">// Papers</span>
       <h2>Publications &amp; preprints</h2>
     </div>
 
     <div class="reveal">
       <div class="pubtabs" role="tablist">
-        <button class="pubtab" role="tab" aria-selected="true" data-target="pub-published">Published</button>
-        <button class="pubtab" role="tab" aria-selected="false" data-target="pub-preprints">Preprints</button>
+        <button class="pubtab" role="tab" aria-selected="true" data-target="pub-selected">Selected</button>
+        <button class="pubtab" role="tab" aria-selected="false" data-target="pub-full">Full list</button>
       </div>
 
-      {%- assign lists = "published,preprints" | split: "," %}
-      {%- for key in lists %}
-      <ul class="publist" id="pub-{{ key }}"{% if key == "preprints" %} hidden{% endif %}>
-        {%- assign entries = site.data.publications[key] %}
-        {%- for e in entries %}
+      <!-- Selected: entries flagged `selected: true` in publications.yml -->
+      <ul class="publist" id="pub-selected">
+        {%- assign n = 0 %}
+        {%- for e in site.data.publications.papers %}
+        {%- if e.selected %}
+        {%- assign n = n | plus: 1 %}
+        <li class="pub"><span class="pub__n">[{{ n }}]</span><div class="pub__body">
+          <div class="pub__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></div>
+          <div class="pub__authors">{{ e.authors | replace: '[me]', '<span class="me">' | replace: '[/me]', '</span>' }}</div>
+          <span class="pub__venue{% if e.oral %} oral{% endif %}">{{ e.venue }}</span>
+        </div></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+
+      <!-- Full: every entry -->
+      <ul class="publist" id="pub-full" hidden>
+        {%- for e in site.data.publications.papers %}
         <li class="pub"><span class="pub__n">[{{ forloop.index }}]</span><div class="pub__body">
           <div class="pub__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></div>
           <div class="pub__authors">{{ e.authors | replace: '[me]', '<span class="me">' | replace: '[/me]', '</span>' }}</div>
@@ -241,7 +254,6 @@
         </div></li>
         {%- endfor %}
       </ul>
-      {%- endfor %}
     </div>
   </div>
 </section>
