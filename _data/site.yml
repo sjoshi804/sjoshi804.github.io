@@ -10,7 +10,7 @@
 headline: "Better models through [hl]better data[/hl]"
 
 lead: >
-  I'm Sid, and I lead [hl]multimodal data curation at DatologyAI[/hl] — choosing, filtering, and
+  I'm Sid, and I [hl]lead multimodal data curation at DatologyAI[/hl] — choosing, filtering, and
   synthesizing the data that models train on. My thesis is that curating the data is the
   highest-leverage way to improve a model. My work spans the research behind those
   **curation methods**, the **production-grade training infrastructure** that runs them, and
