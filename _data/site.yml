@@ -3,7 +3,8 @@
 # Edit plain text here; the layout (_layouts/home.html) renders it.
 # =============================================================
 
-eyebrow: "Member of Technical Staff · DatologyAI"
+# eyebrow pill above the headline — leave commented out to hide it entirely
+# eyebrow: "Member of Technical Staff · DatologyAI"
 
 # Hero headline. Wrap the highlighted span in [hl]...[/hl].
 headline: "Better models through [hl]better data[/hl]"

@@ -59,7 +59,7 @@
   <div class="wrap">
     <div class="hero__grid">
       <div class="reveal in">
-        <span class="eyebrow"><span class="pulse"></span>{{ s.eyebrow }}</span>
+        {%- if s.eyebrow %}<span class="eyebrow"><span class="pulse"></span>{{ s.eyebrow }}</span>{% endif %}
         <h1>{{ s.headline | replace: '[hl]', '<span class="hl">' | replace: '[/hl]', '</span>' }}</h1>
         <div class="hero__lead">{{ s.lead | markdownify }}</div>
         <div class="btns">
