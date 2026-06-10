@@ -111,7 +111,7 @@
     </div>
 
     <!-- office hours strip -->
-    <a class="oh-strip reveal" href="{{ s.office_hours.link }}" target="_blank" rel="noopener">
+    <a class="oh-strip reveal" href="{{ s.office_hours.link | relative_url }}">
       <span class="oh-strip__icon">☕</span>
       <span class="oh-strip__text"><strong>{{ s.office_hours.title }}</strong> — {{ s.office_hours.short }}</span>
       <span class="oh-strip__go">{{ s.office_hours.link_text }}</span>

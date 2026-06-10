@@ -1,2 +1,5 @@
 _site/
 
+# Local-only office-hours response tracker (contains personal emails — never commit)
+_private/
+

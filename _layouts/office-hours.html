@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+{%- assign s = site.data.site -%}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open office hours — Siddharth Joshi</title>
+  <meta name="description" content="{{ s.office_hours.short }}">
+  <meta name="robots" content="noindex">
+
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon-sj.svg' | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  <style>
+    /* ---- office-hours page only ---- */
+    .oh-page { max-width: 760px; margin: 0 auto; padding: 56px 28px 96px; }
+    .oh-page h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: -.02em; margin: 14px 0 10px; }
+    .oh-page .lead { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 36px; }
+    .oh-form {
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius); box-shadow: var(--shadow-sm);
+      padding: 34px 32px;
+    }
+    .oh-field { margin-bottom: 26px; }
+    .oh-field label { display: block; font-weight: 600; font-size: .98rem; margin-bottom: 4px; }
+    .oh-field label .req { color: var(--accent); }
+    .oh-field .hint { font-size: .86rem; color: var(--muted); margin: 0 0 10px; }
+    .oh-field input, .oh-field textarea {
+      width: 100%; font: inherit; color: var(--ink);
+      background: var(--bg); border: 1px solid var(--line-strong);
+      border-radius: var(--radius-sm); padding: 12px 14px;
+      transition: border-color .15s ease, box-shadow .15s ease;
+    }
+    .oh-field input:focus, .oh-field textarea:focus {
+      outline: none; border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    .oh-field textarea { resize: vertical; min-height: 120px; }
+    .oh-submit { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .oh-submit .btn { cursor: pointer; font: inherit; font-weight: 600; }
+    .oh-submit .btn[disabled] { opacity: .6; cursor: wait; transform: none; }
+    .oh-note { font-size: .82rem; color: var(--muted); margin: 0; }
+    .oh-done {
+      display: none; background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius); box-shadow: var(--shadow-sm);
+      padding: 40px 32px; text-align: center;
+    }
+    .oh-done h2 { font-family: var(--serif); margin: 0 0 8px; }
+    .oh-done p { color: var(--ink-soft); margin: 0; }
+    .oh-error { display: none; color: #b3261e; font-size: .9rem; margin-top: 14px; }
+    .hp-field { position: absolute; left: -9999px; opacity: 0; height: 0; overflow: hidden; }
+  </style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="{{ '/' | relative_url }}"><span class="nav__dot"></span>Siddharth Joshi</a>
+    <nav class="nav__links">
+      <a href="{{ '/' | relative_url }}">← Back home</a>
+    </nav>
+  </div>
+</header>
+
+<main class="oh-page">
+  <span class="eyebrow"><span class="pulse"></span>☕ {{ s.office_hours.title }}</span>
+  <h1>Let's talk — grab a slot</h1>
+  <p class="lead">{{ s.office_hours.body | markdownify | remove: '<p>' | remove: '</p>' }}
+    Fill this in and I'll reach out to schedule a time to speak.</p>
+
+  <form class="oh-form" id="oh-form" novalidate>
+    <div class="oh-field">
+      <label for="oh-email">Email <span class="req">*</span></label>
+      <p class="hint">So I can reach out to schedule.</p>
+      <input id="oh-email" name="emailAddress" type="email" required autocomplete="email" placeholder="you@university.edu">
+    </div>
+
+    <div class="oh-field">
+      <label for="oh-intro">Please briefly introduce yourself <span class="req">*</span></label>
+      <p class="hint">List your name, affiliation(s), relevant experience, webpage, etc. Excited to know more about you!</p>
+      <textarea id="oh-intro" name="entry.827561321" required></textarea>
+    </div>
+
+    <div class="oh-field">
+      <label for="oh-topic">What would you like to chat about? <span class="req">*</span></label>
+      <p class="hint">Feel free to specify any area or question you have in mind. The more specific you are, the better I can prepare for our conversation.</p>
+      <textarea id="oh-topic" name="entry.470563976" required></textarea>
+    </div>
+
+    <div class="oh-field">
+      <label for="oh-tz">What timezone are you located in? <span class="req">*</span></label>
+      <p class="hint">This information will help in scheduling our meeting.</p>
+      <input id="oh-tz" name="entry.1843185310" type="text" required placeholder="e.g. PST, IST (GMT+5:30)">
+    </div>
+
+    <!-- honeypot: real users never see or fill this -->
+    <div class="hp-field" aria-hidden="true">
+      <label for="oh-website">Website</label>
+      <input id="oh-website" name="website" type="text" tabindex="-1" autocomplete="off">
+    </div>
+
+    <div class="oh-submit">
+      <button class="btn btn--primary" type="submit" id="oh-send">Request a slot
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+      <p class="oh-note">I read every submission and reply as office-hour slots open up.</p>
+    </div>
+    <p class="oh-error" id="oh-error">Something went wrong sending this. Please use
+      <a href="{{ s.office_hours.fallback_link }}" target="_blank" rel="noopener">the form directly</a> instead.</p>
+  </form>
+
+  <div class="oh-done" id="oh-done">
+    <h2>Thanks — got it! 🎉</h2>
+    <p>I'll reach out over email to find a time that works across our timezones.</p>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__bar">
+      <span>© {{ site.time | date: '%Y' }} Siddharth Joshi · Member of Technical Staff, DatologyAI</span>
+      <span>Built with Jekyll · deployed on GitHub Pages</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var ENDPOINT = 'https://docs.google.com/forms/d/1KJbH5CgdY2mlehQjTcscsCYr7Awh4j1XbjSWp5BXYhs/formResponse';
+  var form = document.getElementById('oh-form');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (form.website.value) return; // honeypot tripped — drop silently
+    if (!form.reportValidity()) return;
+
+    var btn = document.getElementById('oh-send');
+    btn.disabled = true;
+
+    var body = new URLSearchParams();
+    ['emailAddress', 'entry.827561321', 'entry.470563976', 'entry.1843185310'].forEach(function (k) {
+      body.append(k, form.elements[k].value);
+    });
+    body.append('fvv', '1');
+    body.append('pageHistory', '0');
+
+    fetch(ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString()
+    }).then(function () {
+      form.style.display = 'none';
+      document.getElementById('oh-done').style.display = 'block';
+    }).catch(function () {
+      btn.disabled = false;
+      document.getElementById('oh-error').style.display = 'block';
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -78,5 +78,6 @@ office_hours:
   body: >
     Paying forward the help I've received: I set aside a couple of hours each week for open
     mentorship — happy to talk through research, careers, or whatever's on your mind.
-  link: "https://forms.gle/bKrKo3s7Td6Gnkgr7"
+  link: "/office-hours/"            # on-site form page (posts into the Google Form backend)
+  fallback_link: "https://forms.gle/bKrKo3s7Td6Gnkgr7"  # raw Google Form, shown if the on-site submit fails
   link_text: "Grab a slot →"
