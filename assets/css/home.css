@@ -94,7 +94,7 @@ a:hover { color: var(--accent-ink); }
 }
 
 /* ---------- hero ---------- */
-.hero { position: relative; padding: 86px 0 56px; }
+.hero { position: relative; padding: 44px 0 56px; }
 .hero::before {
   content: ""; position: absolute; inset: -120px 0 auto 0; height: 520px; z-index: -1;
   background:
@@ -112,7 +112,7 @@ a:hover { color: var(--accent-ink); }
   font-family: var(--mono); font-size: .76rem; font-weight: 500;
   letter-spacing: .04em; text-transform: uppercase; color: var(--accent-ink);
   background: var(--accent-soft); border: 1px solid #e0e2ff;
-  padding: 6px 13px; border-radius: 999px; margin-bottom: 22px;
+  padding: 6px 13px; border-radius: 999px; margin-bottom: 16px;
 }
 .eyebrow .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--accent-2);
   box-shadow: 0 0 0 0 rgba(67,56,202,.5); animation: pulse 2.4s infinite; }
@@ -124,14 +124,14 @@ a:hover { color: var(--accent-ink); }
 
 .hero h1 {
   font-family: var(--serif); font-weight: 700; letter-spacing: -.03em;
-  font-size: clamp(2.9rem, 7vw, 5rem); line-height: 1.02; margin: 0 0 24px;
+  font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.02; margin: 0 0 18px;
   color: var(--ink);
 }
 .hero h1 .hl {
   background: linear-gradient(120deg, var(--accent) 0%, var(--accent-2) 100%);
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-.hero__lead { font-size: 1.12rem; color: var(--ink-soft); max-width: 36em; margin: 0 0 30px; }
+.hero__lead { font-size: 1.12rem; color: var(--ink-soft); max-width: 36em; margin: 0 0 22px; }
 .hero__lead p { margin: 0; }
 .hero__lead strong { color: var(--ink); font-weight: 600; }
 .story p a, .tile p a, .root p a, .newsitem p a, .callout p a { font-weight: 600; }
@@ -190,12 +190,12 @@ a:hover { color: var(--accent-ink); }
 @media (max-width: 860px) { .hero__photo { max-width: 230px; } }
 
 /* ---------- top highlights band ---------- */
-.highlights { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 60px; }
+.highlights { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 34px; }
 @media (max-width: 820px) { .highlights { grid-template-columns: 1fr; gap: 16px; } }
 
 .hl-card {
   position: relative; display: flex; flex-direction: column;
-  padding: 26px 26px 24px; border-radius: 20px; color: var(--ink);
+  padding: 22px 26px 20px; border-radius: 20px; color: var(--ink);
   background: var(--surface);
   box-shadow: 0 1px 0 rgba(16,16,26,.04);
   border: 1px solid rgba(16,16,26,.05);
@@ -217,7 +217,7 @@ a:hover { color: var(--accent-ink); }
   font-family: var(--serif); font-weight: 600; letter-spacing: -.015em;
   font-size: 1.18rem; line-height: 1.2; margin: 0 0 8px; color: var(--ink);
 }
-.hl-card__blurb { font-size: .92rem; color: var(--ink-soft); margin: 0 0 20px; }
+.hl-card__blurb { font-size: .92rem; color: var(--ink-soft); margin: 0 0 14px; }
 .hl-card__metric { display: flex; align-items: baseline; gap: 10px; margin-top: auto; }
 .hl-card__num {
   font-family: var(--serif); font-weight: 700; font-size: 2.1rem; letter-spacing: -.03em;
@@ -233,7 +233,7 @@ a:hover { color: var(--accent-ink); }
 
 /* ---------- office hours strip ---------- */
 .oh-strip {
-  display: flex; align-items: center; gap: 16px; margin-top: 22px;
+  display: flex; align-items: center; gap: 16px; margin-top: 18px;
   padding: 14px 22px; border-radius: 999px; color: var(--ink);
   background: var(--accent-soft); border: 1px solid #dcdffa;
   transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
