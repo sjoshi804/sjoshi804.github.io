@@ -61,7 +61,7 @@
       <div class="reveal in">
         {%- if s.eyebrow %}<span class="eyebrow"><span class="pulse"></span>{{ s.eyebrow }}</span>{% endif %}
         <h1>{{ s.headline | replace: '[hl]', '<span class="hl">' | replace: '[/hl]', '</span>' }}</h1>
-        <div class="hero__lead">{{ s.lead | markdownify }}</div>
+        <div class="hero__lead">{{ s.lead | markdownify | replace: '[hl]', '<span class="hl">' | replace: '[/hl]', '</span>' }}</div>
         <div class="btns">
           <a class="btn btn--primary" href="#work">
             See the work

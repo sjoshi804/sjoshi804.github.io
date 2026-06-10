@@ -133,6 +133,11 @@ a:hover { color: var(--accent-ink); }
 }
 .hero__lead { font-size: 1.12rem; color: var(--ink-soft); max-width: 36em; margin: 0 0 22px; }
 .hero__lead p { margin: 0; }
+.hero__lead .hl {
+  font-family: var(--serif); font-weight: 600; font-size: 1.05em; letter-spacing: -.01em;
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent-2) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
 .hero__lead strong { color: var(--ink); font-weight: 600; }
 .story p a, .tile p a, .root p a, .newsitem p a, .callout p a { font-weight: 600; }
 
